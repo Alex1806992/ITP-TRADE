@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8" />
+    <title>Главная страница</title>
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE = edge"
+    /><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon/favicon-96x96.png" />
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script
+    ><![endif]-->
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div id="myDiv" class="wrapper animate-bottom">
+      <header class="header">
+        <div class="container">
+          <div class="header__content">
+            <div class="header__logo">
+              <a href="index.html" class="header__logo-link">
+                <img src="img/pulse.png" alt="" class="header__logo-img" />
+                <span class="header__logo-text">ITP.TRADE</span>
+              </a>
+            </div>
+            <div class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a href="" class="header__nav-link">Торги</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="" class="header__nav-link"
+                    >Заказчикам и поставщикам</a
+                  >
+                </li>
+                <li class="header__nav-item">
+                  <a href="" class="header__nav-link">О проекте</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header__registration">
+              <a href="#" class="header__registration-link">Вход &#47;</a>
+              <a href="#" class="header__registration-link">Регистрация</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content-top">
+        <div class="container">
+          <div class="content-top__bidding">
+            <img src="img/svg/menu.svg" alt="" class="bidding__img" />
+            <span class="bidding__text">Торги</span>
+          </div>
+          <div class="content-top__filter-sort">
+            <div class="filter-sort__search">
+              <div class="search__body">
+                <form action="" class="search__form">
+                  <input type="text" class="search__input" /><input
+                    type="submit"
+                    class="btn search__btn"
+                    value="Найти"
+                  />
+                  <img src="img/svg/loupe.svg" alt="" class="search__img" />
+                </form>
+              </div>
+            </div>
+            <div class="filter-sort__filter-btn">
+              <div class="filter-btn">
+                <img src="img/svg/filter.svg" alt="" class="filter-btn__img" />
+                <a href="#" class="btn btn__filter-btn">Показать фильтры</a>
+              </div>
+            </div>
+            <div class="filter-sort__btn-download">
+              <div class="btn-download">
+                <img
+                  src="img/svg/download.svg"
+                  alt=""
+                  class="btn-download__img"
+                />
+                <a href="#" class="btn btn__btn-download">Скачать список</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="purchase-cards">
+        <div class="container">
+          <div class="purchase-card__item">
+            <div class="card-header">
+              <div class="card-header__number">
+                <span class="card-header__number-purchase">Закупка #2173</span>
+                <div class="card-header__request">
+                  <img
+                    src="img/svg/document.svg"
+                    alt=""
+                    class="card-header__request-img"
+                  />
+                  <span class="card-header__request-text"
+                    >Запрос ценовых предложений</span
+                  >
+                </div>
+              </div>
+              <div class="card-header__head">
+                <h3 class="card-header__head-h3">
+                  Расширенно-текущий ремонт турбогенератора
+                </h3>
+                <span class="card-header__head-lots">Лоты - 1</span>
+              </div>
+              <div class="card-header__company">
+                <span class="card-header__company-text"
+                  >Товарищество с ограниченной ответственностью «AB
+                  Construction» (АБ Констракшн)
+                </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-content__range">
+                <div class="range-info">
+                  <div class="range-info__title">
+                    <span class="range-info__end">До окончания приема ЦП</span>
+                    <span class="range-date">6д 12:45:34</span>
+                  </div>
+                  <div class="range__filter__range-1"></div>
+                </div>
+              </div>
+              <div class="card-content__status">
+                <div class="status__title">
+                  <span class="status-title__status">Статус</span>
+                  <span class="status-trading">Период торгов</span>
+                </div>
+                <div class="status__content">
+                  <span class="status-trading__published">Опубливанная</span>
+                  <span class="status-trading__period"
+                    >26.03.2019 11:00 - 02.04.2019 0:00</span
+                  >
+                </div>
+              </div>
+              <div class="card-content__initial">
+                <div class="initial__title">
+                  <span class="initial-cost">Начальная стоимость</span>
+                  <span class="card-content__initial-cost__number"
+                    >6 891 494,00 &#8376;</span
+                  >
+                </div>
+                <a href="card.html" class="btn card-btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="purchase-card__item">
+            <div class="card-header">
+              <div class="card-header__number">
+                <span class="card-header__number-purchase">Закупка #2173</span>
+                <div class="card-header__request">
+                  <img
+                    src="img/svg/document.svg"
+                    alt=""
+                    class="card-header__request-img"
+                  />
+                  <span class="card-header__request-text"
+                    >Запрос ценовых предложений</span
+                  >
+                </div>
+              </div>
+              <div class="card-header__head">
+                <h3 class="card-header__head-h3">
+                  Расширенно-текущий ремонт турбогенератора
+                </h3>
+                <span class="card-header__head-lots">Лоты - 1</span>
+              </div>
+              <div class="card-header__company">
+                <span class="card-header__company-text"
+                  >Товарищество с ограниченной ответственностью «AB
+                  Construction» (АБ Констракшн)
+                </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-content__range">
+                <div class="range-info">
+                  <div class="range-info__title">
+                    <span class="range-info__end">До окончания приема ЦП</span>
+                    <span class="range-date">6д 12:45:34</span>
+                  </div>
+                  <div class="range__filter__range-2"></div>
+                </div>
+              </div>
+              <div class="card-content__status">
+                <div class="status__title">
+                  <span class="status-title__status">Статус</span>
+                  <span class="status-trading">Период торгов</span>
+                </div>
+                <div class="status__content">
+                  <span class="status-trading__published">Опубливанная</span>
+                  <span class="status-trading__period"
+                    >26.03.2019 11:00 - 02.04.2019 0:00</span
+                  >
+                </div>
+              </div>
+              <div class="card-content__initial">
+                <div class="initial__title">
+                  <span class="initial-cost">Начальная стоимость</span>
+                  <span class="card-content__initial-cost__number"
+                    >6 891 494,00 &#8376;</span
+                  >
+                </div>
+                <a href="card.html" class="btn card-btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="purchase-card__item">
+            <div class="card-header">
+              <div class="card-header__number">
+                <span class="card-header__number-purchase">Закупка #2173</span>
+                <div class="card-header__request">
+                  <img
+                    src="img/svg/document.svg"
+                    alt=""
+                    class="card-header__request-img"
+                  />
+                  <span class="card-header__request-text"
+                    >Запрос ценовых предложений</span
+                  >
+                </div>
+              </div>
+              <div class="card-header__head">
+                <h3 class="card-header__head-h3">
+                  Расширенно-текущий ремонт турбогенератора
+                </h3>
+                <span class="card-header__head-lots">Лоты - 1</span>
+              </div>
+              <div class="card-header__company">
+                <span class="card-header__company-text"
+                  >Товарищество с ограниченной ответственностью «AB
+                  Construction» (АБ Констракшн)
+                </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-content__range">
+                <div class="range-info">
+                  <div class="range-info__title">
+                    <span class="range-info__end">До окончания приема ЦП</span>
+                    <span class="range-date">6д 12:45:34</span>
+                  </div>
+                  <div class="range__filter__range-3"></div>
+                </div>
+              </div>
+              <div class="card-content__status">
+                <div class="status__title">
+                  <span class="status-title__status">Статус</span>
+                  <span class="status-trading">Период торгов</span>
+                </div>
+                <div class="status__content">
+                  <span class="status-trading__published">Опубливанная</span>
+                  <span class="status-trading__period"
+                    >26.03.2019 11:00 - 02.04.2019 0:00</span
+                  >
+                </div>
+              </div>
+              <div class="card-content__initial">
+                <div class="initial__title">
+                  <span class="initial-cost">Начальная стоимость</span>
+                  <span class="card-content__initial-cost__number"
+                    >6 891 494,00 &#8376;</span
+                  >
+                </div>
+                <a href="card.html" class="btn card-btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="purchase-card__item">
+            <div class="card-header--green">
+              <div class="card-header__number--green">
+                <span class="card-header__number-purchase">Закупка #2173</span>
+                <div class="card-header__request">
+                  <img
+                    src="img/svg/document.svg"
+                    alt=""
+                    class="card-header__request-img"
+                  />
+                  <span class="card-header__request-text"
+                    >Запрос ценовых предложений</span
+                  >
+                </div>
+              </div>
+              <div class="card-header__head--green">
+                <h3 class="card-header__head-h3">
+                  Расширенно-текущий ремонт турбогенератора
+                </h3>
+                <span class="card-header__head-lots">Лоты - 1</span>
+              </div>
+              <div class="card-header__company">
+                <span class="card-header__company-text"
+                  >Товарищество с ограниченной ответственностью «AB
+                  Construction» (АБ Констракшн)
+                </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-content__range">
+                <div class="range-info">
+                  <div class="range-info__title">
+                    <span class="range-info__end">До окончания приема ЦП</span>
+                    <span class="range-date">6д 12:45:34</span>
+                  </div>
+                  <div class="range__filter__range-4"></div>
+                </div>
+              </div>
+              <div class="card-content__status">
+                <div class="status__title">
+                  <span class="status-title__status">Статус</span>
+                  <span class="status-trading">Период торгов</span>
+                </div>
+                <div class="status__content">
+                  <span class="status-trading__published">Опубливанная</span>
+                  <span class="status-trading__period"
+                    >26.03.2019 11:00 - 02.04.2019 0:00</span
+                  >
+                </div>
+              </div>
+              <div class="card-content__initial">
+                <div class="initial__title">
+                  <span class="initial-cost">Начальная стоимость</span>
+                  <span class="card-content__initial-cost__number"
+                    >6 891 494,00 &#8376;</span
+                  >
+                </div>
+                <a href="card.html" class="btn card-btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="purchase-card__item">
+            <div class="card-header">
+              <div class="card-header__number">
+                <span class="card-header__number-purchase">Закупка #2173</span>
+                <div class="card-header__request">
+                  <img
+                    src="img/svg/document.svg"
+                    alt=""
+                    class="card-header__request-img"
+                  />
+                  <span class="card-header__request-text"
+                    >Запрос ценовых предложений</span
+                  >
+                </div>
+              </div>
+              <div class="card-header__head">
+                <h3 class="card-header__head-h3">
+                  Расширенно-текущий ремонт турбогенератора
+                </h3>
+                <span class="card-header__head-lots">Лоты - 1</span>
+              </div>
+              <div class="card-header__company">
+                <span class="card-header__company-text"
+                  >Товарищество с ограниченной ответственностью «AB
+                  Construction» (АБ Констракшн)
+                </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-content__range">
+                <div class="range-info">
+                  <div class="range-info__title">
+                    <span class="range-info__end">До окончания приема ЦП</span>
+                    <span class="range-date">6д 12:45:34</span>
+                  </div>
+                  <div class="range__filter__range-5"></div>
+                </div>
+              </div>
+              <div class="card-content__status">
+                <div class="status__title">
+                  <span class="status-title__status">Статус</span>
+                  <span class="status-trading">Период торгов</span>
+                </div>
+                <div class="status__content">
+                  <span class="status-trading__published">Опубливанная</span>
+                  <span class="status-trading__period"
+                    >26.03.2019 11:00 - 02.04.2019 0:00</span
+                  >
+                </div>
+              </div>
+              <div class="card-content__initial">
+                <div class="initial__title">
+                  <span class="initial-cost">Начальная стоимость</span>
+                  <span class="card-content__initial-cost__number"
+                    >6 891 494,00 &#8376;</span
+                  >
+                </div>
+                <a href="card.html" class="btn card-btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="purchase-card__item">
+            <div class="card-header--gray">
+              <div class="card-header__number--gray">
+                <span class="card-header__number-purchase">Закупка #2173</span>
+                <div class="card-header__request">
+                  <img
+                    src="img/svg/document.svg"
+                    alt=""
+                    class="card-header__request-img"
+                  />
+                  <span class="card-header__request-text"
+                    >Запрос ценовых предложений</span
+                  >
+                </div>
+              </div>
+              <div class="card-header__head--gray">
+                <h3 class="card-header__head-h3">
+                  Расширенно-текущий ремонт турбогенератора
+                </h3>
+                <span class="card-header__head-lots">Лоты - 1</span>
+              </div>
+              <div class="card-header__company">
+                <span class="card-header__company-text"
+                  >Товарищество с ограниченной ответственностью «AB
+                  Construction» (АБ Констракшн)
+                </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-content__range">
+                <div class="range-info">
+                  <div class="range-info__title">
+                    <span class="range-info__end">До окончания приема ЦП</span>
+                    <span class="range-date">6д 12:45:34</span>
+                  </div>
+                  <div class="range__filter__range-6"></div>
+                </div>
+              </div>
+              <div class="card-content__status">
+                <div class="status__title">
+                  <span class="status-title__status">Статус</span>
+                  <span class="status-trading">Период торгов</span>
+                </div>
+                <div class="status__content">
+                  <span class="status-trading__published">Опубливанная</span>
+                  <span class="status-trading__period"
+                    >26.03.2019 11:00 - 02.04.2019 0:00</span
+                  >
+                </div>
+              </div>
+              <div class="card-content__initial">
+                <div class="initial__title">
+                  <span class="initial-cost">Начальная стоимость</span>
+                  <span class="card-content__initial-cost__number"
+                    >6 891 494,00 &#8376;</span
+                  >
+                </div>
+                <a href="card.html" class="btn card-btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="purchase-card__item">
+            <div class="card-header">
+              <div class="card-header__number">
+                <span class="card-header__number-purchase">Закупка #2173</span>
+                <div class="card-header__request">
+                  <img
+                    src="img/svg/document.svg"
+                    alt=""
+                    class="card-header__request-img"
+                  />
+                  <span class="card-header__request-text"
+                    >Запрос ценовых предложений</span
+                  >
+                </div>
+              </div>
+              <div class="card-header__head">
+                <h3 class="card-header__head-h3">
+                  Расширенно-текущий ремонт турбогенератора
+                </h3>
+                <span class="card-header__head-lots">Лоты - 1</span>
+              </div>
+              <div class="card-header__company">
+                <span class="card-header__company-text"
+                  >Товарищество с ограниченной ответственностью «AB
+                  Construction» (АБ Констракшн)
+                </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-content__range">
+                <div class="range-info">
+                  <div class="range-info__title">
+                    <span class="range-info__end">До окончания приема ЦП</span>
+                    <span class="range-date">6д 12:45:34</span>
+                  </div>
+                  <div class="range__filter__range-7"></div>
+                </div>
+              </div>
+              <div class="card-content__status">
+                <div class="status__title">
+                  <span class="status-title__status">Статус</span>
+                  <span class="status-trading">Период торгов</span>
+                </div>
+                <div class="status__content">
+                  <span class="status-trading__published">Опубливанная</span>
+                  <span class="status-trading__period"
+                    >26.03.2019 11:00 - 02.04.2019 0:00</span
+                  >
+                </div>
+              </div>
+              <div class="card-content__initial">
+                <div class="initial__title">
+                  <span class="initial-cost">Начальная стоимость</span>
+                  <span class="card-content__initial-cost__number"
+                    >6 891 494,00 &#8376;</span
+                  >
+                </div>
+                <a href="card.html" class="btn card-btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="purchase-card__item">
+            <div class="card-header">
+              <div class="card-header__number">
+                <span class="card-header__number-purchase">Закупка #2173</span>
+                <div class="card-header__request">
+                  <img
+                    src="img/svg/document.svg"
+                    alt=""
+                    class="card-header__request-img"
+                  />
+                  <span class="card-header__request-text"
+                    >Запрос ценовых предложений</span
+                  >
+                </div>
+              </div>
+              <div class="card-header__head">
+                <h3 class="card-header__head-h3">
+                  Расширенно-текущий ремонт турбогенератора
+                </h3>
+                <span class="card-header__head-lots">Лоты - 1</span>
+              </div>
+              <div class="card-header__company">
+                <span class="card-header__company-text"
+                  >Товарищество с ограниченной ответственностью «AB
+                  Construction» (АБ Констракшн)
+                </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-content__range">
+                <div class="range-info">
+                  <div class="range-info__title">
+                    <span class="range-info__end">До окончания приема ЦП</span>
+                    <span class="range-date">6д 12:45:34</span>
+                  </div>
+                  <div class="range__filter__range-8"></div>
+                </div>
+              </div>
+              <div class="card-content__status">
+                <div class="status__title">
+                  <span class="status-title__status">Статус</span>
+                  <span class="status-trading">Период торгов</span>
+                </div>
+                <div class="status__content">
+                  <span class="status-trading__published">Опубливанная</span>
+                  <span class="status-trading__period"
+                    >26.03.2019 11:00 - 02.04.2019 0:00</span
+                  >
+                </div>
+              </div>
+              <div class="card-content__initial">
+                <div class="initial__title">
+                  <span class="initial-cost">Начальная стоимость</span>
+                  <span class="card-content__initial-cost__number"
+                    >6 891 494,00 &#8376;</span
+                  >
+                </div>
+                <a href="card.html" class="btn card-btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="purchase-card__item">
+            <div class="card-header">
+              <div class="card-header__number">
+                <span class="card-header__number-purchase">Закупка #2173</span>
+                <div class="card-header__request">
+                  <img
+                    src="img/svg/document.svg"
+                    alt=""
+                    class="card-header__request-img"
+                  />
+                  <span class="card-header__request-text"
+                    >Запрос ценовых предложений</span
+                  >
+                </div>
+              </div>
+              <div class="card-header__head">
+                <h3 class="card-header__head-h3">
+                  Расширенно-текущий ремонт турбогенератора
+                </h3>
+                <span class="card-header__head-lots">Лоты - 1</span>
+              </div>
+              <div class="card-header__company">
+                <span class="card-header__company-text"
+                  >Товарищество с ограниченной ответственностью «AB
+                  Construction» (АБ Констракшн)
+                </span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-content__range">
+                <div class="range-info">
+                  <div class="range-info__title">
+                    <span class="range-info__end">До окончания приема ЦП</span>
+                    <span class="range-date">6д 12:45:34</span>
+                  </div>
+                  <div class="range__filter__range-9"></div>
+                </div>
+              </div>
+              <div class="card-content__status">
+                <div class="status__title">
+                  <span class="status-title__status">Статус</span>
+                  <span class="status-trading">Период торгов</span>
+                </div>
+                <div class="status__content">
+                  <span class="status-trading__published">Опубливанная</span>
+                  <span class="status-trading__period"
+                    >26.03.2019 11:00 - 02.04.2019 0:00</span
+                  >
+                </div>
+              </div>
+              <div class="card-content__initial">
+                <div class="initial__title">
+                  <span class="initial-cost">Начальная стоимость</span>
+                  <span class="card-content__initial-cost__number"
+                    >6 891 494,00 &#8376;</span
+                  >
+                </div>
+                <a href="card.html" class="btn card-btn">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
